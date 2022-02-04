@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class Median {
+    private Median() {
+    }
 
     public static float median(int[] array) {
         int[] array1 = new int[array.length];
